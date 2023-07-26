@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.gpd-header{
+  margin:0;
+}
+.gpd-clm{
+  padding:5px 0;
+}
+.gpd-grid{
+  min-height:auto;
+  padding:10px 0;
+}
+.gpd-cnt{
+  padding:0;
+}
+#iil47{
+  font-size:4.5rem;
+  margin:200px 0 10px 0;
+  color:#3bacdc;
+  font-weight:700;
+  letter-spacing:17px;
+  text-transform:uppercase;
+}
+#iv8vf{
+  line-height:1.75rem;
+  margin-bottom:50px;
+  margin:0 0 0 0;
+  text-transform:uppercase;
+  color:rgba(238,238,238,0.55);
+  letter-spacing:4px;
+}
+#i0ruh{
+  background-color:#f2f2f2;
+  color:#333;
+  text-align:center;
+  background-image:linear-gradient(rgba(7,15,27,0.9),rgba(7,15,27,0.9));
+  background-repeat:repeat;
+  background-position:left top;
+  background-attachment:scroll;
+  background-size:auto;
+}
+body{
+  color:#ccc;
+  background-color:#212528;
+  font-family:Helvetica, serif;
+  background-image:linear-gradient(rgba(7,15,27,0.9),rgba(7,15,27,0.9));
+  background-repeat:repeat;
+  background-position:left top;
+  background-attachment:scroll;
+  background-size:auto;
+}
+.footer4{
+  font-size:0.85rem;
+  font-weight:200;
+  padding-top:70px;
+  padding-bottom:50px;
+}
+.footer-socials{
+  text-align:center;
+}
+.footer-copyright{
+  letter-spacing:3px;
+  font-weight:100;
+}
+#iziqe{
+  padding:0 0 25px 0;
+}
+#ilkpz{
+  text-align:center;
+}
+.footer-link-icon{
+  width:45px;
+  height:45px;
+  opacity:0.7;
+  margin:0 25px 0 0;
+  transition:all 0.3s ease;
+}
+.footer-link-icon:hover{
+  color:#3bacdc;
+}
+#ia0ve{
+  background-image:linear-gradient(rgba(7,15,27,0.9),rgba(7,15,27,0.9)), url('https://cdn.grapedrop.com/u7482f19f069d4b218cced6a35e0ab5db/69724853f4f04e0a86d16a3e1a6c5733_botsweepwallpaper.png');
+  background-repeat:repeat, repeat;
+  background-position:left top, left bottom;
+  background-attachment:scroll, scroll;
+  background-size:auto, cover;
+  min-height:100vh;
+  opacity:1;
+}
+#ic86i{
+  height:100%;
+  align-items:center;
+}
+#ia6l3{
+  text-align:center;
+}
+#i8kqg{
+  background-image:linear-gradient(rgba(7,15,27,0.9),rgba(7,15,27,0.9));
+  background-repeat:repeat;
+  background-position:left top;
+  background-attachment:scroll;
+  background-size:auto;
+}
+#ioi6l{
+  height:772px;
+  width:1920px;
+  border:none;
+  max-width:100%;
+}
+.gpd-navbar{
+  width:100%;
+}
+.gpd-navbar__menu{
+  display:none;
+}
+.gpd-navbar__item{
+  flex:0 1 auto;
+}
+.gpd-navbar__item-link{
+  color:inherit;
+  text-decoration:none;
+}
+#ip6cp{
+  padding:0;
+}
+#iv66l{
+  justify-content:space-between;
+  align-items:center;
+  min-height:auto;
+}
+#ixxvk{
+  flex:0 1 auto;
+}
+#ikssu{
+  min-height:25px;
+  min-width:25px;
+}
+#icstl{
+  flex:0 1 auto;
+}
+#irxvp{
+  width:35px;
+  height:35px;
+  cursor:pointer;
+}
+#i191w{
+  flex:0 1 auto;
+}
+#iq1fi{
+  align-items:center;
+  min-height:auto;
+}
+#iiym6{
+  color:black;
+}
+@keyframes fadeEffect{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+@media (max-width: 768px){
+  #iil47{
+    font-size:3rem;
+  }
+  .gpd-navbar__menu{
+    display:block;
+  }
+  .gpd-navbar__items{
+    display:none;
+    width:100%;
+  }
+  .gpd-navbar__item{
+    flex:1 1 100%;
+  }
+  .gpd-navbar__items-grid{
+    flex-wrap:wrap;
+  }
+  .gpd-navbar__item-link{
+    width:100%;
+  }
+}
+@media (max-width: 375px){
+  #iv8vf{
+    font-size:0.7rem;
+  }
+  #iil47{
+    font-size:2rem;
+  }
+  .footer-copyright{
+    font-size:0.7rem;
+  }
+}
