@@ -110,16 +110,16 @@
 .home-text {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text01 {
+.home-text1 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text04 {
+.home-text4 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text05 {
+.home-text5 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text06 {
+.home-text6 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-container2 {
@@ -201,86 +201,21 @@
   font-style: normal;
   font-weight: 500;
 }
-.home-gallery-card {
-  width: 100%;
-  height: 1086px;
-  display: flex;
-  position: relative;
-  align-items: center;
-  flex-direction: column;
-  background-size: cover;
-  justify-content: center;
-  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
+.home-gallery {
+  width: auto;
+  height: 1303px;
+  display: grid;
+  padding: var(--dl-space-space-threeunits);
+  grid-gap: var(--dl-space-space-unit);
+  max-width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-.home-container3 {
-  width: 650px;
-  height: 100%;
-  display: none;
-  opacity: 1;
-  z-index: 1;
-  transition: 0.3s;
-  align-items: flex-start;
-  flex-direction: column;
-  background-size: cover;
-  justify-content: center;
-  background-image: url("https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEzfHxhYnN0cmFjdHxlbnwwfHx8fDE2OTAzOTg2NDd8MA&ixlib=rb-4.0.3&h=1100");
-}
-.home-container3:hover {
-  opacity: 1;
-}
-.home-container4 {
-  width: 797px;
-  height: 568px;
-  display: flex;
-  padding: var(--dl-space-space-twounits);
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.home-text09 {
-  color: var(--dl-color-gray-white);
-  font-style: normal;
-  text-align: center;
-  font-weight: 500;
-  margin-bottom: var(--dl-space-space-oneandhalfunits);
-}
-.home-text10 {
-  color: var(--dl-color-gray-white);
-  text-align: center;
-  margin-bottom: var(--dl-space-space-oneandhalfunits);
-}
-.home-text11 {
-  color: var(--dl-color-gray-white);
-  font-style: normal;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-.home-image1 {
-  top: -3px;
-  left: -2px;
-  width: 50.5%;
-  height: 1094px;
-  position: absolute;
-  object-fit: cover;
-  border-color: var(--dl-color-gray-black);
-  border-style: inset;
-  border-width: 25px;
-}
-.home-image2 {
-  top: -11px;
-  right: -4px;
-  width: 50.5%;
-  height: 1099px;
-  position: absolute;
-  object-fit: cover;
-  border-color: var(--dl-color-gray-black);
-  border-style: inset;
-  border-width: 25px;
-}
-.home-image3 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.home-video1 {
+  width: 1146px;
+  height: 1234px;
+  align-self: flex-start;
+  border-radius: var(--dl-radius-radius-radius4);
+  border-top-right-radius: var(--dl-radius-radius-radius2);
 }
 @media(max-width: 991px) {
   .home-hero {
@@ -288,6 +223,9 @@
   }
   .home-hero-content {
     padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-gallery {
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media(max-width: 767px) {
@@ -297,8 +235,9 @@
   .home-heading {
     font-size: 60px;
   }
-  .home-gallery-card {
-    flex-direction: column;
+  .home-gallery {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
   }
 }
 @media(max-width: 479px) {
@@ -323,19 +262,10 @@
   .home-heading {
     font-size: 36px;
   }
-  .home-container3 {
-    max-width: auto;
-  }
-  .home-image1 {
-    top: 0px;
-    left: 0px;
-    right: auto;
-    bottom: auto;
-  }
-  .home-image2 {
-    top: 0px;
-    left: 0px;
-    right: auto;
-    bottom: auto;
+  .home-gallery {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
   }
 }
